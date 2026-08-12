@@ -1,0 +1,25 @@
+.sidebar{
+  background-color: rgb(49, 48, 48);
+  
+  width: 16%;
+  height: 100vh;
+  margin-top: 0;
+}
+.modules{
+    color:white;
+    padding-top: 35px; 
+    padding-left: 27px;
+    list-style: none;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+}
+.StockRoom{
+    color:white;
+    padding-top: 13px; 
+    padding-left: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}

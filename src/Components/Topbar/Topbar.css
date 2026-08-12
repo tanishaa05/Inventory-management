@@ -1,0 +1,45 @@
+.topbar{
+    padding-top: 15px;
+    padding-left: 45px;
+    width: 83%;
+    height:48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchBox{
+    height:50px;
+    min-width: 100vh;
+    font-size: large;
+    
+}
+.profile{
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    transform: translateX(70px);
+}
+.profile_icon{
+  width: 45px;  
+  height: 45px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  
+  
+  
+}
+.profile_names{
+    margin-left: 8px;;
+}
+.name{
+    margin:0;
+    font-weight:bold;
+    font-size: large;
+}
+.role{
+    margin:0;
+    color: rgb(63, 63, 63);
+    font-size: medium;
+}

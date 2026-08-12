@@ -1,0 +1,85 @@
+.managerDashboard{
+   background-color: rgb(236, 245, 248);
+   margin-top: 12px;
+   height:100%;
+   padding-left: 20px;
+}
+.Dashboard{
+   font-family: Arial, Helvetica, sans-serif;
+   padding-left: 20px;
+   margin-bottom: 0;
+   font-size: 28px;
+}
+.overviewText{
+   margin-top: 9px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: small;
+   font-weight: 150;
+   padding-left: 20px;
+}
+.fourCards{
+   display: flex;
+   justify-content: center;
+   gap:40px;
+   font-size: larger;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-bottom: 20px;
+}
+.cards{
+  text-decoration: none;
+  color: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  box-shadow: 2px 2px 10px rgb(58, 58, 58);
+  border-radius: 20px;
+}
+.cards:hover{
+    transform: scale(1.1);
+}
+.p{
+  margin-bottom: 0;
+
+}
+.numbers{
+  margin-top: 5px;
+}
+.tableBox{
+     background-color: white;
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-right: 20px;
+     min-height: 30ch;
+     border: 2px solid #cbd5e1;
+     border-radius: 10px;
+     padding-top: 15px;
+     
+}
+.recentSales{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    margin-top: 0;
+}
+.heading{
+    background-color:  rgb(236, 245, 248); ;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+
+}
+.rows{
+    min-height: 30ch;
+    padding: 10px 20px;
+}
