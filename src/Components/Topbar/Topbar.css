@@ -11,7 +11,9 @@
     height:50px;
     min-width: 100vh;
     font-size: large;
+    border-radius: 5px;
     
+    border: 2px solid rgb(205, 225, 248);
 }
 .profile{
     height:50px;

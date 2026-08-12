@@ -5,6 +5,9 @@ import Login from "./Pages/Login/Login";
 import AdminDashboard from "./Pages/AdminDashboard/AdminDashboard";
 import ManagerDashboard from "./Pages/ManagerDashboard/ManagerDashboard";
 import CashierDashboard from "./Pages/CashierDashboard/CashierDashboard";
+import Products from "./Pages/Products/Products";
+import AddProduct from "./Pages/AddProduct/AddProduct";
+import EditProduct from "./Pages/EditProduct/EditProduct";
 export default function App() {
     return(
         <BrowserRouter>
@@ -21,6 +24,15 @@ export default function App() {
                 />
                 <Route path="/cashier/dashboard"
                 element={<CashierDashboard />}
+                />
+                <Route path="/products"
+                element={<Products />}
+                />
+                <Route path="/products/addproduct"
+                element={<AddProduct />}
+                />
+                <Route path="/products/editproduct"
+                element={<EditProduct />}
                 />
             </Route>
         </Routes>

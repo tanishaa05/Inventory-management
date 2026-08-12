@@ -6,6 +6,7 @@
   margin-top: 0;
 }
 .modules{
+    
     color:white;
     padding-top: 35px; 
     padding-left: 27px;
@@ -15,6 +16,12 @@
     flex-direction: column;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:20px;
+    
+}
+.list{
+    text-decoration: none;
+    color:inherit;
+
 }
 .StockRoom{
     color:white;

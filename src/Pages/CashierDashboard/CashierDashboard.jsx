@@ -15,7 +15,7 @@ export default function CashierDashboard(){
                     <p ClassName="p">Today's Revenue </p>
                     <h2 className="numbers">₹24,632</h2>  
                     </Link>
-                    <button className="button">+New Billing</button>
+                    <Link to="/billing/new" className="newBilling">+ New Billing</Link>
                 </div>
             </div>
             <div className="tableBox">
