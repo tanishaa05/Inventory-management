@@ -1,35 +1,36 @@
-import {useState} from "react";
 import {Link} from "react-router-dom";
-import "./Products.css";
-export default function Products(){
-    const [category,setCategory]=useState("");
-    const [product,setProduct]=useState("");
+import "./Inventory.css";
+
+export default function Inventory(){
     return(
-        <div className="products">
-        <h2 className="productsText">Products</h2>
-        <span>Manage all your products</span>
-        <div className="search-category-button">
-            <input type="search"
-            placeholder="Search products.."
-            className="searchproducts"
-            />
-            <select value={category} 
-            onChange={(e)=>setCategory(e.target.value)}
-            className="category">
-                <option>All Categories</option>
-                <option>Groceries</option>
-                <option>Beverages</option>
-                <option>Snacks</option>
-                <option>Stationery</option>
-                <option>Fruits & Vegetables</option>
-                <option>Electronics</option>
-            </select>
-            <Link to="/products/editProduct" className="editProductButton">Edit</Link>
-            <Link to="/products/addProduct" className="addProductButton">+ Add Product</Link>
-        </div>
-        <div className="productsTableDiv"> 
-        <table className="products-table">
-                    <thead className="products-heading">
+        <div className="Inventorypage">
+            <div className="">
+                <div>
+                 <h2 className="inventory">Inventory</h2>
+                 <span> Monitor and manage your current stock levels    </span>
+                </div>
+                <div className="fourcardsinventory">
+                    <Link to="/products" className="cardsinventory">
+                    <p className="p">Total Products</p>
+                    <h2 className="numbers">245</h2>  
+                    </Link>
+                    <Link to="/instock" className="cardsinventory">
+                    <p ClassName="p">In Stock </p>
+                    <h2 className="numbers">₹18,500</h2>  
+                    </Link>
+                    <Link to="/outofstock" className="cardsinventory">
+                    <p ClassName="p">Out of Stock</p>
+                    <h2 className="numbers">₹2,45,000</h2>  
+                    </Link>
+                    <Link to="/lowstock" className="cardsinventory">
+                    <p ClassName="p">Low Stock Alert</p>
+                    <h2 className="numbers">12</h2>  
+                    </Link>
+                </div>
+            </div>
+            <div className="inventoryTableDiv"> 
+        <table className="inventory-table">
+                    <thead className="inventory-heading">
                         
                         <tr >
                             <th >Product</th>
@@ -41,7 +42,7 @@ export default function Products(){
                         </tr>
                     </thead>
 
-                    <tbody className="productsTableBody">
+                    <tbody className="inventoryTableBody">
                         <tr >
                             <td >Basmati Rice 5kg</td>
                             <td >BR-1001</td>

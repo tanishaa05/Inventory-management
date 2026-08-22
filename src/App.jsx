@@ -10,6 +10,7 @@ import AddProduct from "./Pages/AddProduct/AddProduct";
 import EditProduct from "./Pages/EditProduct/EditProduct";
 import Settings from "./Pages/Settings/Settings";
 import UserManagement from "./Pages/UserManagement/UserManagement";
+import Inventory from "./Pages/Inventory/Inventory";
 export default function App() {
     return(
         <BrowserRouter>
@@ -41,6 +42,9 @@ export default function App() {
                 />
                 <Route path="/settings/usermanagement"
                 element={<UserManagement/>}
+                />
+                <Route path="/inventory"
+                element={<Inventory/>}
                 />
             </Route>
         </Routes>
