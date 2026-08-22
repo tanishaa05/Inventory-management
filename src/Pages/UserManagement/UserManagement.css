@@ -1,0 +1,74 @@
+.userManagementpage{
+    padding-left:45px;
+    background-color: rgb(241, 247, 248);
+    padding-right: 20px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 12px;
+}
+.userManagement{
+    margin-bottom:9px;
+    margin-top: 20px;
+}
+.adduserLink{
+    text-decoration: none;
+    color: inherit;
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(3, 52, 186);
+    height:64%;
+    width:24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    margin-top: 17px;
+    box-shadow: 2px 2px 5px black;
+}
+.adduserLink:hover{
+    transform: scale(1.1);
+}
+.userspage{
+    display:flex;
+
+}
+.addUserDiv{
+    display: flex;
+    justify-content: flex-end;
+    width:50%;
+    align-items: center;
+    padding-top:12px;
+}
+.tablediv{
+    overflow-y: auto;
+    margin-top: 40px;
+    max-height: 360px;
+}
+.usersTable{
+    border: 2px solid rgb(228, 232, 238);
+    border-radius: 5px;
+    font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10px;
+    width: 100%;
+    
+    border-collapse: separate;
+    border-spacing:0;
+}
+.usersHeading{
+    min-height:2ch;
+}
+.usersBody{
+    background-color: white;
+    border: 2px solid rgb(228, 232, 238);
+}
+.usersTable th,
+.usersTable td {
+    text-align: left;
+    vertical-align: middle;
+    padding: 15px 20px; 
+    
+}
+.tr{
+    border: 2px solid rgb(228, 232, 238);
+}

@@ -8,6 +8,8 @@ import CashierDashboard from "./Pages/CashierDashboard/CashierDashboard";
 import Products from "./Pages/Products/Products";
 import AddProduct from "./Pages/AddProduct/AddProduct";
 import EditProduct from "./Pages/EditProduct/EditProduct";
+import Settings from "./Pages/Settings/Settings";
+import UserManagement from "./Pages/UserManagement/UserManagement";
 export default function App() {
     return(
         <BrowserRouter>
@@ -33,6 +35,12 @@ export default function App() {
                 />
                 <Route path="/products/editproduct"
                 element={<EditProduct />}
+                />
+                <Route path="settings"
+                element={<Settings/>}
+                />
+                <Route path="/settings/usermanagement"
+                element={<UserManagement/>}
                 />
             </Route>
         </Routes>

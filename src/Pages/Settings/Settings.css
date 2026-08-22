@@ -1,0 +1,112 @@
+.settingspage{
+    padding-left:45px;
+    background-color: rgb(241, 247, 248);
+    padding-right: 20px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 12px;
+}
+.settings{
+    margin-bottom:9px;
+}
+.changepassword{
+    margin-top:12px;
+    margin-bottom:9px;
+}
+.div1settings{
+   background-color: white;
+   border-radius: 2px;
+   border: 2px solid rgb(228, 232, 238);
+   padding-left:19px;
+   margin-top:15px;
+   padding-bottom: 17px;
+}
+.div2settings{
+   background-color: white;
+   border-radius: 2px;
+   border: 2px solid rgb(228, 232, 238);
+   padding-left:19px;
+}
+.div3settings{
+   background-color: white; 
+   border-radius: 2px;
+   border: 2px solid rgb(228, 232, 238);
+   padding-left:19px;
+}
+.updatePasswordButton{
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(3, 52, 186);
+    font-size:17px;
+    width:18%;
+    min-height: 4ch;
+    
+}
+.logout{
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(3, 52, 186);
+    font-size:17px;
+    width:25%;
+    min-height: 4ch;
+}
+.buttondiv{
+    display: flex;
+    justify-content: flex-end;
+    padding-top:15px;
+    padding-right:40px;
+}
+.manageUsersDiv{
+    display: flex;
+    justify-content: flex-end;
+    padding-top:15px;
+    padding-right:40px;
+}
+.manageUsers:hover,.updatePasswordButton:hover,.logout:hover{
+    transform: scale(1.1);
+}
+.enterNewPassword{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width:50%;
+}
+#confirmNew,#enterNew{
+    width:80%;
+    min-height:4ch;
+    font-size: medium;
+}
+.userLogout{
+    display:flex;
+    gap:30px;
+    margin-top:12px;
+}
+.div2settings{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+.password{
+    display:flex;
+    gap:30px;
+    margin-top:15px;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:large;
+}
+.manageUsers{
+    text-decoration: none;
+    color: inherit;
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(3, 52, 186);
+    font-size:17px;
+    width:45%;
+    min-height: 4ch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
